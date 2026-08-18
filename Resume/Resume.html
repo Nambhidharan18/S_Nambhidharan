@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>S. Nambhidharan - Resume</title>
+  <style>
+    :root {
+      --navy: #173f6b;
+      --text: #111111;
+      --muted: #6f6f6f;
+      --line: #6f91b5;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      background: #f4f4f4;
+      color: var(--text);
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 14px;
+      line-height: 1.28;
+    }
+
+    .page {
+      width: 8.27in;
+      min-height: 11.69in;
+      margin: 24px auto;
+      padding: 0.55in 0.48in 0.48in;
+      background: #fff;
+      box-shadow: 0 2px 14px rgba(0,0,0,.10);
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 16px;
+    }
+
+    .name {
+      margin: 0 0 12px;
+      color: var(--navy);
+      font-size: 29px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+    }
+
+    .contact {
+      color: var(--muted);
+      font-size: 13px;
+      white-space: nowrap;
+    }
+
+    .contact span {
+      display: inline-block;
+      margin: 0 10px;
+    }
+
+    .contact a {
+      color: var(--navy);
+      text-decoration: underline;
+    }
+
+    section { margin-top: 15px; }
+
+    .section-title {
+      margin: 0 0 12px;
+      padding-bottom: 4px;
+      color: var(--navy);
+      border-bottom: 1.5px solid var(--line);
+      font-size: 16px;
+      font-weight: 700;
+    }
+
+    .summary {
+      margin: 0;
+      font-size: 14.5px;
+      text-align: left;
+    }
+
+    .entry {
+      margin-bottom: 15px;
+      break-inside: avoid;
+    }
+
+    .entry-head {
+      display: flex;
+      align-items: baseline;
+      justify-content: space-between;
+      gap: 18px;
+      margin-bottom: 7px;
+      font-size: 15px;
+    }
+
+    .entry-title { font-weight: 700; }
+
+    .entry-title .company {
+      font-weight: 400;
+    }
+
+    .date {
+      flex: 0 0 auto;
+      color: var(--muted);
+      font-style: italic;
+      white-space: nowrap;
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 25px;
+    }
+
+    li {
+      margin: 3px 0;
+      padding-left: 2px;
+    }
+
+    .skills {
+      display: grid;
+      grid-template-columns: 255px 1fr;
+      column-gap: 0;
+      row-gap: 1px;
+      font-size: 14px;
+    }
+
+    .skill-label { font-weight: 700; }
+
+    .education-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 20px;
+      font-size: 14.5px;
+    }
+
+    .education-line strong { font-weight: 700; }
+
+    .certification {
+      margin-top: 14px;
+      font-size: 14.5px;
+    }
+
+    @media (max-width: 850px) {
+      body { background: #fff; }
+      .page {
+        width: 100%;
+        min-height: auto;
+        margin: 0;
+        padding: 28px 30px;
+        box-shadow: none;
+      }
+
+      .contact {
+        white-space: normal;
+        line-height: 1.8;
+      }
+
+      .contact span {
+        margin: 0 5px;
+      }
+
+      .skills {
+        grid-template-columns: 190px 1fr;
+      }
+    }
+
+    @media print {
+      body { background: #fff; }
+      .page {
+        width: 8.27in;
+        min-height: 11.69in;
+        margin: 0;
+        padding: 0.55in 0.48in 0.48in;
+        box-shadow: none;
+      }
+
+      a {
+        color: inherit;
+        text-decoration: none;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <main class="page">
+
+    <header class="header">
+      <h1 class="name">S. Nambhidharan</h1>
+      <div class="contact">
+        <span>Vellore, Tamil Nadu</span>
+        <span>|</span>
+        <span>7904895092</span>
+        <span>|</span>
+        <span><a href="mailto:nambhidharan07@gmail.com">nambhidharan07@gmail.com</a></span>
+        <span>|</span>
+        <span><a href="https://www.linkedin.com/in/nambhidharan-s" target="_blank" rel="noopener">www.linkedin.com/in/nambhidharan-s</a></span>
+      </div>
+    </header>
+
+    <section>
+      <h2 class="section-title">PROFESSIONAL SUMMARY:</h2>
+      <p class="summary">
+        I’m a Computer Science graduate with a strong interest in Data Analytics, Machine Learning, and Data Visualization.
+        I enjoy transforming raw data into meaningful insights and building practical, data-driven solutions. I have hands-on
+        experience with Python, SQL, R, Excel, Tableau, and Machine Learning, and I’m continuously developing my skills
+        through real-world projects.
+      </p>
+    </section>
+
+    <section>
+      <h2 class="section-title">WORK EXPERIENCE:</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <div class="entry-title">Data Analytics Trainee <span class="company">| MedTourEasy</span></div>
+          <div class="date">July 2025</div>
+        </div>
+        <ul>
+          <li>Analyzed the relationship between handedness and age at death using historical mortality and handedness datasets.</li>
+          <li>Used Python, Pandas, NumPy, and Matplotlib for data preprocessing, statistical analysis, probability modeling, and visualization.</li>
+          <li>Applied conditional probability and Bayesian analysis to estimate lifespan differences, finding a 2.22-year gap in 1990, reduced to 0.50 years in 2018.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">PROJECTS:</h2>
+
+      <div class="entry">
+        <div class="entry-head">
+          <div class="entry-title">End-to-End Telecom Churn Analysis (ETL + BI + ML)</div>
+          <div class="date">Dec 2025</div>
+        </div>
+        <ul>
+          <li>Analyzed telecom customer churn to identify customer behavior, service patterns, and key factors contributing to customer loss.</li>
+          <li>Used Python, SQL, Power BI/DAX, and Random Forest for ETL, data analysis, visualization, and churn prediction.</li>
+          <li>Enabled proactive customer retention by predicting high-risk customers and identifying key churn drivers, supporting targeted interventions and reducing potential revenue loss.</li>
+        </ul>
+      </div>
+
+      <div class="entry">
+        <div class="entry-head">
+          <div class="entry-title">Adventure Works Sales Analysis in Excel</div>
+          <div class="date">Oct 2025</div>
+        </div>
+        <ul>
+          <li>Analyzed four years of Adventure Works sales data to evaluate revenue, costs, profit, products, customers, and geographic performance.</li>
+          <li>Used Excel, Power Query, Pivot Tables/Charts, Slicers, and Data Modeling to clean, transform, analyze, and visualize sales data through interactive dashboards.</li>
+          <li>Delivered interactive profitability dashboards that revealed sales trends and key performance drivers, enabling faster identification of growth opportunities and areas for business improvement.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">SKILLS:</h2>
+      <div class="skills">
+        <div class="skill-label">Programming:</div>
+        <div>Python, SQL, Excel</div>
+
+        <div class="skill-label">Data Analytics:</div>
+        <div>EDA, Data Cleaning, Statistical Analysis</div>
+
+        <div class="skill-label">BI &amp; Visualization:</div>
+        <div>Power BI, DAX, Excel Dashboards</div>
+
+        <div class="skill-label">ETL &amp; Data Modeling:</div>
+        <div>Power Query, Data Transformation, Star Schema</div>
+
+        <div class="skill-label">Machine Learning:</div>
+        <div>Random Forest, Churn Prediction, Feature Engineering</div>
+
+        <div class="skill-label">Tools:</div>
+        <div>Jupyter Notebook, SSMS, Power BI, Excel</div>
+
+        <div class="skill-label">Languages:</div>
+        <div>English (Professional), Tamil (Native)</div>
+      </div>
+    </section>
+
+    <section>
+      <h2 class="section-title">EDUCATION:</h2>
+      <div class="education-line">
+        <div><strong>B.E. in Computer Science &amp; Engineering</strong> - Ganadipathy Tulsi's Jain Engineering College</div>
+        <div class="date">April 2025</div>
+      </div>
+      <div class="certification">
+        Certification: Google Data Analytics Professional Certificate, Data Analyst in Python — Career Track
+      </div>
+    </section>
+
+  </main>
+</body>
+</html>
